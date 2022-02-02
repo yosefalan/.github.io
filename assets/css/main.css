@@ -3514,7 +3514,16 @@ input, select, textarea {
 	#footer > .inner .menu {
 		font-size: 0.8em;
 		color: rgba(255, 255, 255, 0.15);
+		margin-bottom: 0;
 	}
+
+	#footer > .inner {
+		padding: 12px 64px 12px 64px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 
 	#header + #wrapper + #footer > .inner {
 		margin: 0 auto;

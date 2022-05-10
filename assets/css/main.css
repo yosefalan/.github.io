@@ -2021,7 +2021,7 @@ input, select, textarea {
 		.features section {
 			padding: 1em 1em 1em 1em ;
 			width: 50%;
-			height: 725px;
+			height: 600px;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
@@ -2030,6 +2030,9 @@ input, select, textarea {
 				font-size: 15px;
 		}
 
+		.features > section * img {
+			height: 100px;
+	}
 			.features section:nth-child(-n + 2) {
 				border-top-width: 0;
 			}
@@ -3966,6 +3969,3 @@ input, select, textarea {
 			}
 
 		}
-
-
-	
